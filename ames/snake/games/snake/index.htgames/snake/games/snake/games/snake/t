@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Tetris - SNIPS UNBLOCKED GAMES</title>
+    <link rel="stylesheet" href="../../css/game-layout.css">
+    <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="../../index.html" class="logo">SNIPS<span>UNBLOCKED</span></a>
+            <a href="../../index.html" class="back-link">&larr; Back Dashboard</a>
+        </div>
+    </header>
+
+    <div class="game-container">
+        <h1 class="game-title">NEON TETRIS</h1>
+        <div class="scoreboard">
+            <div>LINES: <span id="score">0</span></div>
+            <div>HI-SCORE: <span id="highScore">0</span></div>
+        </div>
+        <div class="canvas-wrapper">
+            <canvas id="gameCanvas" width="240" height="400"></canvas>
+        </div>
+        <div class="controls-hint">
+            Use <strong>A / D</strong> or <strong>LEFT / RIGHT ARROWS</strong> to move grid blocks.<br>
+            Use <strong>W</strong> or <strong>UP ARROW</strong> to rotate. <strong>S</strong> or <strong>DOWN ARROW</strong> to soft drop.
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 SNIPS UNBLOCKED GAMES</p>
+    </footer>
+
+    <script src="game.js"></script>
+</body>
+</html>
